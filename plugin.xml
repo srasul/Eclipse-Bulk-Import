@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="360T Project Action Set"
+            visible="true"
+            id="ListProjectPlugin.actionSet">
+         <action
+               label="Open Project Action"
+               icon="icons/openProjects.gif"
+               class="listprojectplugin.actions.OpenProjectAction"
+               tooltip="Open Project from list"
+               toolbarPath="sampleGroup"
+               id="listprojectplugin.actions.OpenAction">
+         </action>
+         <action
+               class="listprojectplugin.actions.SaveProjectAction"
+               icon="icons/saveProjects.gif"
+               id="ListProjectPlugin.action1"
+               label="Save Project Action"
+               toolbarPath="sampleGroup"
+               tooltip="Save Current Project List">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="listprojectplugin.preferences.BlukImportPreferencePage"
+            id="listprojectplugin.preferences.BlukImportPreferencePage"
+            name="Bulp Import">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="listprojectplugin.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="listprojectplugin.actions.PluginStartup">
+      </startup>
+   </extension>
+
+</plugin>

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Saqib's Bulk Import Plug-in
+Bundle-SymbolicName: BulkImportPlugin;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: listprojectplugin.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources;bundle-version="3.4.2",
+ org.eclipse.jdt.ui;bundle-version="3.4.2",
+ org.eclipse.jdt.core;bundle-version="3.4.4"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: Saqib Rasul
