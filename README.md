@@ -39,5 +39,5 @@ And thats about it. When configured to save on shutdown, each time you quit ecli
 
 ![Eclipse](eclipse.PNG)
 
-|![save](openProjects.gif)|Save location of current open projects|
-|![open](openProjects.gif)|Open projects from saved-project-location list|
+| ![save](openProjects.gif) | Save location of current open projects |
+| ![open](openProjects.gif) | Open projects from saved-project-location list |
