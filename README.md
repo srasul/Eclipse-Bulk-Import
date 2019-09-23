@@ -33,6 +33,7 @@ Once installed, you will have 2 buttons on the eclipse gui to:
 2. import projects from a saved list of projects
 
 In Window -> Preferences -> Bulk Import you have some options as to where to save the project List and when it should be saved
+
 ![Preferences](import_pref.PNG)
 
 And thats about it. When configured to save on shutdown, each time you quit eclipse, it will save the current list of projects in your workspace. Apart from that there are 2 buttons in eclispe to save or load projects on demand
