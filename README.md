@@ -1,0 +1,20 @@
+# Eclipse Bulk Import
+## About
+At my place of work, we have lots of eclipse projects. The base platform is composed of over 200 eclipse projects. Now, I’m not really sure if anyone ever uses eclipse with over 200 projects. There are some issues with such an eclipse setup:
+
+1. Eclipse workspaces get corrupt every now and then: new workspace, import projects, wait. This cycle can take appox an hour and still lead to corrupt workspace. (once I spent an entire day doing this!)
+2. Importing these projects takes time because you have to select a bunch of projects
+3. Importing over 200 projects and then build takes eclipse appox 30-40 mins depending on the hardware
+4. A functioning eclipse with over 200 projects is needed before one can do anything productive
+
+And so after looking for such a plugin that would allow me to import a predefined list or projects, and not finding one, I decided to write one myself.
+
+## Features
+* saves the list of projects in the current workspace
+* is able to bulk-import this list of projects in another or the same workspace
+* can help to recover from corrupt workspaces
+
+
+## Screen Shots
+Here is an example to the plugin in action. In this video i remove some projects from my workspace. The plugin has already saved the list of current projects. So with one click, I can re-import them:
+[![Video of plugin](http://img.youtube.com/vi/E-NPWg7isS0/0.jpg)](http://www.youtube.com/watch?v=E-NPWg7isS0)
