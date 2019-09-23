@@ -39,5 +39,14 @@ And thats about it. When configured to save on shutdown, each time you quit ecli
 
 ![Eclipse](eclipse.PNG)
 
-| ![save](openProjects.gif) | Save location of current open projects |
+| Symbol | Action | 
+|---|---|
+| ![save](saveProjects.gif) | Save location of current open projects |
 | ![open](openProjects.gif) | Open projects from saved-project-location list |
+
+## Recovering From Corrupt Workspaces
+With a corrupt workspace I notice that the only thing that helps is to create a new workspaces and import all the projects into that. And so I assumed that a corrupt workspace seems to have to do with the current projects you have in you workspace and eclipse not being able to work with them. Googleing around, i found that in case of corrupt workspaces you can delete the following directory:
+```
+/path/to/my/workspaces/.metadata/.plugins/org.eclipse.core.resources/
+```
+and then re-import the projects. Using this plugin you can delete this directory, restart eclipse and one-click import your previous projects.
