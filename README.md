@@ -18,3 +18,19 @@ And so after looking for such a plugin that would allow me to import a predefine
 ## Screen Shots
 Here is an example to the plugin in action. In this video i remove some projects from my workspace. The plugin has already saved the list of current projects. So with one click, I can re-import them:
 [![Video of plugin](http://img.youtube.com/vi/E-NPWg7isS0/0.jpg)](http://www.youtube.com/watch?v=E-NPWg7isS0)
+
+## Download
+Download the plugin jar from the github here
+Source is also here.
+
+### Installation
+Place the BulkImportPlugin_1.0.0.jar in your $eclipse_dir/plugins/ directory. Restart Eclipse.
+
+## Usage
+Once installed, you will have 2 buttons on the eclipse gui to:
+
+1. Save the current list of projects
+2. import projects from a saved list of projects
+
+In Window -> Preferences -> Bulk Import you have some options as to where to save the project List and when it should be saved
+
